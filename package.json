@@ -1,0 +1,25 @@
+{
+  "name": "coin",
+  "version": "1.0.0",
+  "description": "A simple Tendermint implementation",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["blockchain", "cryptocurrency", "nodejs"],
+  "author": "Satwik Panigrahi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "express": "^4.21.0",
+    "body-parser": "^1.19.0"
+  }
+}
